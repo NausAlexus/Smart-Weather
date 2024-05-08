@@ -1,0 +1,149 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 189px;
+    background: white;
+    border-radius: 20px;
+}
+
+
+/* Верстаем верхнюю часть виджета */
+.top_info{
+    margin: 26px 12px ;
+    display: flex;
+    justify-content: space-between;
+}
+.img_weather img{
+    width: 100px;
+    margin-top: -20px;
+    margin-right: -7px;
+}
+.temperature_info{
+    display: flex;
+    flex-direction: column;
+}
+.temperature_name{
+    margin-top: -5px;
+    margin-left: 3.5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #59637A;
+}
+.temperature_in{
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+
+
+
+/* Верстаем центральную линию */
+.middle_info{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+.line{
+    width: 366px;
+    height: 1px;
+    background: #EFF0F2;
+}
+
+
+
+/* Верстаем нижнюю часть виджета */
+.bottom_info{
+    display: flex;
+}
+.temperature_out{
+    display: flex;
+    flex-direction: column;
+}
+.outdoor{
+    display: flex;
+}
+.outdoor-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #59637A;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+.outdoor-circle{
+    width: 6px;
+    height: 6px;
+    background: #7F85F5;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 7px;
+}
+.outdoor-temperature{
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: 16px;
+}
+.home_humid{
+    display: flex;
+    flex-direction: column;
+}
+.humid{
+    display: flex;
+}
+.humid-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #59637A;
+    margin-top: 18px;
+    margin-left: 53px;
+}
+.humid-circle{
+    width: 6px;
+    height: 6px;
+    background: #F7BDC3;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 7px;
+}
+.humid-value{
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: 53px;
+}
+.air_quality{
+    display: flex;
+    flex-direction: column;
+}
+.air{
+    display: flex;
+}
+.air-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #59637A;
+    margin-top: 18px;
+    margin-left: 38px;
+}
+.air-circle{
+    width: 6px;
+    height: 6px;
+    background: #54CCFC;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 6px;
+}
+.air-value{
+    font-size: 20px;
+    margin-top: -14px;
+    margin-left: 38px;
+}

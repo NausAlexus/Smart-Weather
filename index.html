@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Smart Weather</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top_info">
+            <div class="temperature_info">
+                <p class="temperature_in">19°C</p>
+                <p class="temperature_name">Indoor</p>
+            </div>
+            <div class="img_weather">
+                <img id="imageWather" src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+            </div>
+        </div>
+        <div class="middle_info">
+            <div class="line"></div>
+        </div>
+        <div class="bottom_info">
+            <div class="temperature_out">
+                <div class="outdoor">
+                    <p class="outdoor-text">Outdoor</p>
+                    <div class="outdoor-circle"></div>
+                </div>
+                <div class="outdoor-temperature">27°C</div>
+            </div>
+            <div class="home_humid">
+                <div class="humid">
+                    <p class="humid-text">Home Humidity</p>
+                    <div class="humid-circle"></div>
+                </div>
+                <div class="humid-value">50.1%</div>
+            </div>
+            <div class="air_quality">
+                <div class="air">
+                    <p class="air-text">Air Quality</p>
+                    <div class="air-circle"></div>
+                </div>
+                <div class="air-value">Excellent</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
